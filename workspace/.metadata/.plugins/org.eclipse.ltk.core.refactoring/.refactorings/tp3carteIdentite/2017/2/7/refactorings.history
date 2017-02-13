@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;s&apos; in &apos;myPack.Presentation.main(...)&apos; to &apos;prenom&apos;&#x0A;- Original project: &apos;tp3carteIdentite&apos;&#x0A;- Original element: &apos;myPack.Presentation.main(String[]).s&apos;&#x0A;- Renamed element: &apos;s&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;s&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;myPack{Presentation.java[Presentation~main~\[QString;@s!160!197!174!174!QStringBuilder;!0!false" name="prenom" references="true" stamp="1486968609514" version="1.0"/>
+</session>
