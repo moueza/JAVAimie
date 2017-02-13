@@ -1,0 +1,13 @@
+package myPack;
+
+
+import java.text.DateFormat;
+import java.util.Scanner;
+
+public class Milliseconds {
+
+	public static void main(String[] args) {
+		DateFormat df = new DateFormat("dd/MM/yyyy");
+		
+	}
+}

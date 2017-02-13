@@ -1,0 +1,8 @@
+package myPack;
+
+public abstract class Calculable implements Comparable{
+
+	public abstract Double getPerim();
+
+	public abstract Double getAire();
+}

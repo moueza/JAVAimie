@@ -1,0 +1,12 @@
+package myPack;
+
+public class Exec {
+	public static void maim(){
+		Rectangle r1 = new Rectangle(10.,5.);
+		Rectangle r2 = new Rectangle(100,50);
+		List<Re>
+	}
+	public static void main(String[] args) {
+maim();
+	}
+}

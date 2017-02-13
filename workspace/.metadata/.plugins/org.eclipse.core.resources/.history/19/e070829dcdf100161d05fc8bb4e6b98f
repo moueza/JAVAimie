@@ -1,0 +1,31 @@
+package myPack;
+
+public class Rectangle {
+	Float longueur;
+	Float largeur;
+
+	public Rectangle() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Rectangle(Float longueur, Float largeur) {
+		super();
+		this.longueur = longueur;
+		this.largeur = largeur;
+	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [longueur=" + longueur + ", largeur=" + largeur + "]";
+	}
+
+	public float getPerim(){
+		return 2*(this.longueur+this.largeur);
+	}
+	
+	public float getAire(){
+		return this.longueur*this.largeur;
+	}
+	
+	
+}

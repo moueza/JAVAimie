@@ -1,0 +1,7 @@
+package module;
+
+public abstract class Ressource {
+	String name;
+
+	public abstract void getRessource(String name);
+}

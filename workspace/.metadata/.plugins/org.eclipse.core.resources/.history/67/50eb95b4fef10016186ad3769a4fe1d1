@@ -1,0 +1,8 @@
+package module;
+
+public abstract class   Ressource implements Comparable{
+
+
+	public abstract String getRessource();
+	//public abstract void getRessource(String name);
+}

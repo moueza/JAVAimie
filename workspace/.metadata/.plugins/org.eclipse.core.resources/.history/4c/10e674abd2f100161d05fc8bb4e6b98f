@@ -1,0 +1,53 @@
+package myPack;
+
+import java.util.Comparator;
+
+public class Carre implements Comparator<Carre> {
+	Double Doubleueur;
+	Double largeur;
+
+	public Carre() {
+
+	}
+
+	public Carre(Double d, Double e) {
+		super();
+		this.Doubleueur = d;
+		this.largeur = e;
+	}
+
+	public Double getDoubleueur() {
+		return Doubleueur;
+	}
+
+	public void setDoubleueur(Double doubleueur) {
+		Doubleueur = doubleueur;
+	}
+
+	public Double getLargeur() {
+		return largeur;
+	}
+
+	public void setLargeur(Double largeur) {
+		this.largeur = largeur;
+	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [Doubleueur=" + Doubleueur + ", largeur=" + largeur + "]";
+	}
+
+	public Double getPerim() {
+		return 2 * (this.Doubleueur + this.largeur);
+	}
+
+	public Double getAire() {
+		return this.Doubleueur * this.largeur;
+	}
+
+	@Override
+	public int compare(Carre o1, Carre o2) {
+		return compare(o1, o2);
+	}
+
+}

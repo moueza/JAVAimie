@@ -1,0 +1,10 @@
+package module;
+
+import java.util.Date;
+
+public abstract class   Ressource implements Comparable{
+	Date d ;
+
+	public abstract String getRessource();
+	//public abstract void getRessource(String name);
+}

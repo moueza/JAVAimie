@@ -1,0 +1,14 @@
+package module;
+
+public class RessourceService {
+	public void addRessource() {
+	}
+
+	public void getAllRessources() {
+	}
+
+	public void getAllURL() {
+
+	}
+
+}

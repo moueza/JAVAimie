@@ -1,0 +1,9 @@
+package myPack;
+
+public abstract class Shape {
+
+	public Double getPerim();
+
+	public Double getAire();
+
+}

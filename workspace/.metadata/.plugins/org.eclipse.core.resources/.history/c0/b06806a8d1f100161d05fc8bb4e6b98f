@@ -1,0 +1,31 @@
+package myPack;
+
+public class Rectangle {
+	Double Doubleueur;
+	Double largeur;
+
+	public Rectangle() {
+	
+	}
+
+	public Rectangle(Double d, Double e) {
+		super();
+		this.Doubleueur = d;
+		this.largeur = e;
+	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [Doubleueur=" + Doubleueur + ", largeur=" + largeur + "]";
+	}
+
+	public  Double getPerim(){
+		return 2*(this.Doubleueur+this.largeur);
+	}
+	
+	public Double getAire(){
+		return this.Doubleueur*this.largeur;
+	}
+	
+	
+}
