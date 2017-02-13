@@ -1,23 +1,30 @@
 package myPack;
 
-
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 public class Milliseconds {
 
 	public static void main(String[] args) {
-		StringBuilder s = new StringBuilder();
-		StringBuilder s2 = new StringBuilder();
-		Scanner input = new Scanner(System.in);
-		System.out.println("Please enter a number as RANGE: ");
-		s.append(input.next()); // getting a String value
-		s2 = s;
-		s2.reverse();
-		if (s.equals(s2)) {
+		// http://www.java2s.com/Tutorial/Java/0040__Data-Type/SimpleDateFormat.htm
+		String pattern = "MM/dd/yyyy";
+		DateFormat format = new SimpleDateFormat(pattern);// http://www.java2s.com/Tutorial/Java/0040__Data-Type/SimpleDateFormat.htm
 
-			System.out.println("is a palindrome");
-		} else {
-			System.out.println("is NOT a palindrome");
+		try {
+			Date date = format.parse("12/31/2006");
+			System.out.println(date);
+
+			// formatting
+			System.out.println(format.format(new Date()));
+
+			SimpleDateFormat format2 = new SimpleDateFormat("dd-MM/yyyy");// http://www.java2s.com/Tutorial/Java/0040__Data-Type/SimpleDateFormat.htm
+
+			System.out.println(format2.format(date));
+		} catch (ParseException e) {
+			e.printStackTrace();
 		}
 	}
 }

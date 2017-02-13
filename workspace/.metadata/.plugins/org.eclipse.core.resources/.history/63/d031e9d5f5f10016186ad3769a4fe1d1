@@ -1,0 +1,11 @@
+package module;
+
+public class Url extends Ressource{
+
+	@Override
+	public String getRessource(String namee) {
+	this.name=namee;
+		
+	}
+
+}

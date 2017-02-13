@@ -1,0 +1,14 @@
+package module;
+
+public class Image extends Ressource{
+public Image() {
+
+}
+
+@Override
+public void getRessource(String name) {
+	// TODO Auto-generated method stub
+	
+}
+
+}

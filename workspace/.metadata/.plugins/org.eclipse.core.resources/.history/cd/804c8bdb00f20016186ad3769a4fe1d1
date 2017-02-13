@@ -1,0 +1,36 @@
+package module;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class RessourceService {
+	List<Ressource> ressourceList = new ArrayList<Ressource>();
+
+	public void addRessource(Ressource ress) {
+		this.ressourceList.add(ress);
+	}
+
+	public List<Ressource> getAllRessources() {
+		List<Ressource> list = new ArrayList<Ressource>();
+		for (Ressource ressource : ressourceList) {
+			list.add(ressource);
+		}
+		return list;
+	}
+
+	public List<Url> getAllURL() {
+		List<Url> list = new ArrayList<Url>();
+		for (Ressource ressource : ressourceList) {
+			if (ressource instanceof Url) {
+				list.add(ressource.getRessource());
+			}
+		}
+//		 sort(list,new Comparator<Ressource>(){
+//			 Override compare(o1,o2){
+//				 return compare(o1.date,o2.date); 
+//			 }
+//			 };
+		 return list;
+	}
+
+}

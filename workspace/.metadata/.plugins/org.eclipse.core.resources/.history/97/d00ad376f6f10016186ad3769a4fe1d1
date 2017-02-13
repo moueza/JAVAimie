@@ -1,0 +1,15 @@
+package module;
+
+public class Url extends Ressource{
+	public void Ressource(){
+		
+	}
+
+	@Override
+	public void getRessource(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

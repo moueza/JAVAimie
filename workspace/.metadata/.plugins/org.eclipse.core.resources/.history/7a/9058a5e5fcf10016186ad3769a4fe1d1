@@ -1,0 +1,23 @@
+package module;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class RessourceService {
+	List<Ressource> ressourceList = new ArrayList<Ressource>();
+
+	public void addRessource(Ressource ress) {
+		this.ressourceList.add(ress);
+	}
+
+	public ArrayList<Ressource> getAllRessources() {
+		for (Ressource ressource : ressourceList) {
+			ressource.getRessource();
+		}
+	}
+
+	public void getAllURL() {
+
+	}
+
+}

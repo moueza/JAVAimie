@@ -1,0 +1,15 @@
+package module;
+
+public class Fichier extends Ressource {
+	public Fichier(String string) {
+	
+	}
+
+
+	@Override
+	public void getRessource(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
