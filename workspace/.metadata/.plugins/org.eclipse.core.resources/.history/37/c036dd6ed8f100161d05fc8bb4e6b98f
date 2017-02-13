@@ -1,0 +1,15 @@
+package myPack;
+
+public class Shape {
+
+	public Double getPerim() {
+		// TODO Auto-generated method stub
+		return 0.;
+	}
+
+	public Double getAire() {
+		// TODO Auto-generated method stub
+		return 0.;
+	}
+
+}

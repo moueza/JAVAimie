@@ -1,0 +1,9 @@
+package myPack;
+
+public abstract class Shapee {
+
+	public abstract Double getPerim();
+
+	public abstract Double getAire();
+
+}

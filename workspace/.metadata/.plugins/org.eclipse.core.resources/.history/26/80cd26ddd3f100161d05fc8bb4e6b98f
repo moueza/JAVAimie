@@ -1,0 +1,8 @@
+package myPack;
+
+import java.util.Comparator;
+
+public class Carre extends Rectangle {
+	
+
+}

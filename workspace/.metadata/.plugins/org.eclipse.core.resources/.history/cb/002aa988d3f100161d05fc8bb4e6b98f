@@ -1,0 +1,54 @@
+package myPack;
+
+import java.util.Comparator;
+
+public class Cercle implements Comparator<Cercle>{
+	Double longueur;
+	Double largeur;
+
+	public Cercle() {
+	
+	}
+
+	public Cercle(Double d, Double e) {
+		super();
+		this.longueur = d;
+		this.largeur = e;
+	}
+
+	public Double getDoubleueur() {
+		return longueur;
+	}
+
+	public void setDoubleueur(Double doubleueur) {
+		longueur = doubleueur;
+	}
+
+	public Double getLargeur() {
+		return largeur;
+	}
+
+	public void setLargeur(Double largeur) {
+		this.largeur = largeur;
+	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [Doubleueur=" + longueur + ", largeur=" + largeur + "]";
+	}
+
+	public  Double getPerim(){
+		return 2*(this.longueur+this.largeur);
+	}
+	
+	public Double getAire(){
+		return this.longueur*this.largeur;
+	}
+
+	@Override
+	public int compare(Cercle o1, Cercle o2) {
+		return compare(o1, o2);
+			}
+	
+	
+}

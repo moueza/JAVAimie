@@ -1,0 +1,61 @@
+package myPack;
+
+import java.util.Comparator;
+
+public class Cercle extends Shapee implements Comparator<Cercle> {
+	Point centre;
+	Double rayon;
+	Double pi = 3.14;
+
+	public Cercle() {
+
+	}
+
+	public Cercle(Point center, Double radius) {
+		super();
+		this.centre = center;
+		this.rayon = radius;
+	}
+
+	public Cercle(Double rayonn) {
+	this.rayon=rayonn;
+	}
+
+	public Point getCentre() {
+		return centre;
+	}
+
+	public void setCentre(Point centre) {
+		this.centre = centre;
+	}
+
+	public Double getRayon() {
+		return rayon;
+	}
+
+	public void setRayon(Double rayon) {
+		this.rayon = rayon;
+	}
+
+	public Double getPi() {
+		return pi;
+	}
+
+	public void setPi(Double pi) {
+		this.pi = pi;
+	}
+
+	public Double getPerim() {
+		return 2 * 3.14 * this.rayon;
+	}
+
+	public Double getAire() {
+		return this.pi * this.rayon * this.rayon;
+	}
+
+	@Override
+	public int compare(Cercle o1, Cercle o2) {
+		return compare(o1, o2);
+	}
+
+}

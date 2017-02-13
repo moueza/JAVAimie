@@ -1,0 +1,13 @@
+package myPack;
+
+import java.util.Comparator;
+
+public class Carre extends Rectangle {
+	Double cote;
+	public Carre(Double cote) {
+		this.largeur=cote;
+		this.longueur=cote;
+		this.cote=cote;
+	}
+
+}

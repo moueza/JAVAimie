@@ -1,0 +1,7 @@
+package myPack;
+
+import java.awt.Shape;
+
+public class Dodecaedre implements Shapee {
+
+}

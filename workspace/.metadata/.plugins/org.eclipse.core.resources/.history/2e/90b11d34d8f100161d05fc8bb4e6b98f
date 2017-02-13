@@ -1,0 +1,52 @@
+package myPack;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Exec {
+	List<Shape> l = new ArrayList<Shape>();
+
+	double aireTotal;
+	double perimTotal;
+
+	public void maim() {
+		aireTotal = perimTotal();
+		perimTotal = aireTotal();
+		System.out.println("perims=" + perimTotal);
+		System.out.println("aires=" + aireTotal());
+
+	}
+
+	public double perimTotal() {
+		double totalPerim = 0;
+		for (Shape r : this.l) {
+			totalPerim += r.getPerim();
+		}
+		return totalPerim;
+	}
+
+	public double aireTotal() {
+		double totalAire = 0;
+		for (Shape r : this.l) {
+			totalAire += r.getAire();
+		}
+		return totalAire;
+
+	}
+
+	public static void main(String[] args) {
+		Rectangle r1 = new Rectangle(10., 5.);
+		Rectangle r2 = new Rectangle(100., 50.);
+		Exec e = new Exec();
+		e.l.add(r1);
+		e.l.add(r2);
+
+		Carre carre = new Carre(2.);
+		Shape cercle = new Cercle(10.);
+
+		e.l.add(carre);
+		e.l.add(cercle);
+
+		e.maim();
+	}
+}
