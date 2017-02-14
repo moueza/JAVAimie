@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="myPack.Exec"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="myPack.Rectangle"/>
-<fullyQualifiedTypeName name="myPack.Point"/>
-<fullyQualifiedTypeName name="myPack.Carre"/>
-<fullyQualifiedTypeName name="myPack.Cercle"/>
-<fullyQualifiedTypeName name="myPack.Shape"/>
-<fullyQualifiedTypeName name="myPack.Calculable"/>
-<fullyQualifiedTypeName name="java.awt.Shape"/>
-<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>

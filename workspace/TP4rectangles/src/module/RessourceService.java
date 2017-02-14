@@ -15,7 +15,8 @@ public class RessourceService {
 	public List<Ressource> getAllRessources() {
 		List<Ressource> list = new ArrayList<Ressource>();
 		for (Ressource ressource : ressourceList) {
-			list.add(ressource);
+			//list.add(ressource);
+			System.out.println(ressource);
 		}
 		return list;
 	}
