@@ -1,0 +1,47 @@
+package myPack;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+public class AddDays {
+	public static void main(String[] args) {
+		String pattern = "dd/MM/yyyy";
+		DateFormat format = new SimpleDateFormat(pattern);// http://www.java2s.com/Tutorial/Java/0040__Data-Type/SimpleDateFormat.htm
+		Date date1;
+		try {
+			date1 = format.parse("22/11/2006");
+			System.out.println(date1);
+
+			// formatting
+			System.out.println(format.format(date1));
+
+			SimpleDateFormat format2 = new SimpleDateFormat("dd-MM/yyyy");// http://www.java2s.com/Tutorial/Java/0040__Data-Type/SimpleDateFormat.htm
+
+			System.out.println(format2.format(date1));
+
+			
+			
+			
+			
+			// Date date2now = new Date();
+			//SimpleDateFormat format2 = new SimpleDateFormat("dd-MM/yyyy");// http://www.java2s.com/Tutorial/Java/0040__Data-Type/SimpleDateFormat.htm
+			Date date2;
+			date2 = format.parse("02/01/1970");
+			System.out.println(format.format(date2));
+			
+			Calendar cal = Calendar.getInstance();
+			long milisec=cal.getTimeInMillis();
+			//diff=   var diffInSeconds = (dateTime1 - dateTime2).TotalSeconds;;//3600*24~75000s
+		System.out.println("milisec="+milisec);
+		System.out.println("sec="+milisec/1000);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+
+	
+
+	}
+}

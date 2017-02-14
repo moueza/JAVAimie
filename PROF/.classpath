@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="05 Java/carteIdentite/src"/>
+	<classpathentry kind="src" path="05 Java/exception/src"/>
+	<classpathentry kind="src" path="05 Java/forme/src"/>
+	<classpathentry kind="src" path="05 Java/forme2/src"/>
+	<classpathentry kind="src" path="05 Java/forme3/src"/>
+	<classpathentry kind="src" path="05 Java/forme4/src"/>
+	<classpathentry kind="src" path="05 Java/mesListes/src"/>
+	<classpathentry kind="src" path="05 Java/mesListes2/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="05 Java/carteIdentite/bin"/>
+</classpath>

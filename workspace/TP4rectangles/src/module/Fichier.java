@@ -1,5 +1,7 @@
 package module;
 
+import java.util.Date;
+
 public class Fichier extends Ressource {
 	private String name;
 
@@ -7,7 +9,7 @@ public class Fichier extends Ressource {
 
 	}
 
-	public Fichier(String namee) {
+	public Fichier(String namee,Date datee) {
 		this.name = namee;
 	}
 

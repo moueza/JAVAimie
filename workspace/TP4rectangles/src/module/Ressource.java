@@ -13,6 +13,11 @@ public abstract class Ressource {
 		this.date = date;
 	}
 
+	@Override
+	public String toString() {
+		return "Ressource [date=" + date + ", toString()=" + super.toString() + "]";
+	}
+
 	public abstract String getRessource();
 	//public abstract void getRessource(String name);
 }

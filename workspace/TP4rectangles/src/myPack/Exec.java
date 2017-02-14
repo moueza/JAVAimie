@@ -81,7 +81,7 @@ public class Exec {
 //			e.maim();
 //			
 //			
-//			Shapee rNug = new Rectangle(-10., 50.);
+			Shapee rNug = new Rectangle(10., 50.);
 			Shapee carre = new Carre(2.);
 		} catch (NegativeException e) {
 			System.out.println(e.getMessage());
@@ -90,16 +90,18 @@ public class Exec {
 		
 		Shapee cercle = new Cercle(10.);
 
+		Exec e= new Exec();
 		// e.l.add(carre);
-		// e.l.add(cercle);
+		 e.l.add(cercle);
 		// Shapee dodecaedre = new Dodecaedre(2.);
 
 	
 		RessourceService rs= new RessourceService();
-		rs.addRessource(new Fichier("liste.txt"));
+		rs.addRessource(new Fichier("liste.txt",));
 		rs.addRessource(new Url("http://www.free.fr"));
 		
-		lister
+		rs.getAllRessources();
+		rs.getAllURL();
 		
 	}
 }
