@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Exec.java&apos; to &apos;tp9DAO/src/myPack&apos;&#x0D;&#x0A;- Original project: &apos;BDD-20170215T105300Z&apos;&#x0D;&#x0A;- Destination element: &apos;tp9DAO/src/myPack&apos;&#x0D;&#x0A;- Original element: &apos;test.Exec.java&apos;" description="Copy compilation unit" destination="=tp9DAO/src&lt;myPack" element1="/BDD\/src&lt;test{Exec.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1487156926853" units="1" version="1.0"/>
+</session>
