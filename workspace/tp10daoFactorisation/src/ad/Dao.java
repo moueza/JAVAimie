@@ -13,5 +13,7 @@ public abstract class Dao {
 //		return instance;
 //	}
 	
+	//TODO
+	//connection
 	
 }

@@ -1,0 +1,17 @@
+package ad;
+
+public abstract class Dao {
+	static Dao instance;
+
+//	private Dao() {
+//	}
+
+//	public static Dao getInstance() {
+//		if (instance == null) {
+//			instance = new Dao();
+//		}
+//		return instance;
+//	}
+	
+	
+}

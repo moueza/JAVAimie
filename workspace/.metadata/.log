@@ -794,3 +794,6 @@ java.nio.file.InvalidPathException: Illegal char <:> at index 30: /home/peter/PO
 
 !ENTRY org.eclipse.core.resources 4 567 2017-02-15 15:06:52.047
 !MESSAGE The project description file (.project) for 'PROF' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources 4 567 2017-02-15 15:48:01.051
+!MESSAGE The project description file (.project) for 'PROF' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.

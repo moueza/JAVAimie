@@ -1,0 +1,60 @@
+package entites;
+
+import java.util.List;
+
+public class Parking {
+	String idParking;
+	String lieu;
+	String nom;
+	List<Voiture> listVoitures;
+
+	
+	
+	public List<Voiture> getListVoitures() {
+		return listVoitures;
+	}
+
+	public void setListVoitures(List<Voiture> listVoitures) {
+		this.listVoitures = listVoitures;
+			}
+
+	public Parking() {
+	}
+
+	public Parking(String idParking, String lieu, String nom) {
+		super();
+		this.idParking = idParking;
+		this.lieu = lieu;
+		this.nom = nom;
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public String getIdParking() {
+		return idParking;
+	}
+
+	public void setIdParking(String idParking) {
+		this.idParking = idParking;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getLieu() {
+		return lieu;
+	}
+
+	public void setLieu(String lieu) {
+		this.lieu = lieu;
+	}
+	
+	public void insertVoiture(Voiture voiture){
+		if(this.idemMarques())
+	}
+	
+	public Integer idemMarques(){}
+}
