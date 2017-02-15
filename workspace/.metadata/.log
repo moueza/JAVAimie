@@ -734,3 +734,6 @@ java.nio.file.InvalidPathException: Illegal char <:> at index 30: /home/peter/PO
 	at org.eclipse.egit.core.Activator$CheckProjectsToShare.visitConnect(Activator.java:580)
 	at org.eclipse.egit.core.Activator$CheckProjectsToShare.run(Activator.java:501)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 567 2017-02-15 09:15:16.413
+!MESSAGE The project description file (.project) for 'PROF' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
