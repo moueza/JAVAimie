@@ -1,0 +1,45 @@
+package ad;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+import entite.Message;
+import metier.IMAD;
+import serialisation.Personne;
+
+public class MessageSave implements IMAD {
+	String filename;
+	Message message;
+
+	public MessageSave(Message message) {
+		this.message = message;
+	}
+
+	@Override
+	public void save() {
+		ObjectOutputStream oos = null;
+
+		try {
+			final FileOutputStream fichier = new FileOutputStream("message.ser");
+			oos = new ObjectOutputStream(fichier);
+			// Personne p = new Personne("Dupont", "Jean", "Dupont", "123456");
+			
+			oos.writeObject(this.message);
+			oos.flush();
+			System.out.println("Ecriture de " + this.message);
+		} catch (final java.io.IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (oos != null) {
+					oos.flush();
+					oos.close();
+				}
+			} catch (final IOException ex) {
+				ex.printStackTrace();
+			}
+		}
+	}
+
+}

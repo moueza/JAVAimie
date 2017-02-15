@@ -1,0 +1,29 @@
+package metier;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import ad.MessageSave;
+import entite.IPM;
+import entite.Message;
+
+public class MessageService  implements IPM{
+	List<Message> liste = new ArrayList<Message>();
+
+	public List<Message> getMessages() {
+		return this.liste;
+	}
+
+	public void addMessage(Message m) {
+		this.liste.add(m);
+	}
+	
+	public void saveMessage(){
+		MessageSave ms = new MessageSave();
+		ms.save();
+	}
+
+
+
+
+}

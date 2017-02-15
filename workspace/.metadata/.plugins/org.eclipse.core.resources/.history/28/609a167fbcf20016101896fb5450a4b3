@@ -1,0 +1,13 @@
+package e;
+
+public class Jeu {
+	Integer tour;
+
+	public Integer getTour() {
+		return tour;
+	}
+
+	public void setTour(Integer tour) {
+		this.tour = tour;
+	}
+}

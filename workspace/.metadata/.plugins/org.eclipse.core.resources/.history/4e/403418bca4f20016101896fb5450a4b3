@@ -1,0 +1,52 @@
+package entite;
+
+import java.util.Date;
+import java.util.List;
+
+public class Message {
+	String text = "";
+	Date date;
+
+	private Message() {
+		
+	}
+	
+	public Message(String msgg, Date datee) {
+		this.text=msgg;
+		this.date=datee; 
+	}
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	@Override
+	public List<Message> getMessages() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addMessage(Message m) {
+		this.
+		
+	}
+
+	@Override
+	public void saveMessage() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

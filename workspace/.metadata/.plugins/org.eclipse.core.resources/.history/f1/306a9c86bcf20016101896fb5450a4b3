@@ -1,0 +1,5 @@
+package e;
+
+public class Grille {
+	Case[][] grille = new Case[3][3];
+}

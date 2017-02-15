@@ -1,0 +1,11 @@
+package ad;
+
+import metier.IMAD;
+
+public class MessageSave implements IMAD{
+	String filename;
+
+	public void save() {
+
+	}
+}

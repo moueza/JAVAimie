@@ -1,0 +1,9 @@
+package ad;
+
+public class MessageSave {
+	String filename;
+
+	public void save() {
+
+	}
+}

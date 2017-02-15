@@ -1,0 +1,61 @@
+package myPack;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class Main {
+	protected String source;
+	List<String> liste = new ArrayList<String>();
+
+	public Main(String sourcee) {
+		this.source = sourcee;
+		lecture();
+		reverse();
+		affichage();
+	}
+
+	private void reverse() {
+		List l = new ArrayList<String>();
+		for(String str: this.liste){
+			//this.liste.lastIndexOf()
+		}
+		
+		
+	}
+
+	public static void main(String[] args) {
+		new Main("txt.txt");
+	}
+
+	private void affichage() {
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void lecture() {
+		try {
+			String ligne;
+			BufferedReader fichier = new BufferedReader(new FileReader(this.source));
+
+			while ((ligne = fichier.readLine()) != null) {
+				System.out.println(ligne);
+				liste.add(ligne);
+			}
+			fichier.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+}

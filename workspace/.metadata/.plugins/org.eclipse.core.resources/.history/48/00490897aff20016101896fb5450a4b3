@@ -1,0 +1,7 @@
+package metier;
+
+public interface IMAD {
+	public void save();
+
+	public void restore();
+}

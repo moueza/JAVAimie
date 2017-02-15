@@ -1,0 +1,4 @@
+1 poule
+2 coq
+3 lapin
+4 baleine

@@ -1,0 +1,14 @@
+package presentation;
+
+import entite.Message;
+
+public class Exec {
+public void saisie(){}
+	public static void main(String[] args) {
+		
+	boolean autoMessage = true;
+	Exec exec= new Exec();
+Message msg = new Message("Mon 1er message");
+	}
+
+}

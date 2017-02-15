@@ -1,0 +1,23 @@
+package presentation;
+
+import java.util.Date;
+
+import entite.Message;
+import metier.MessageService;
+
+public class Exec {
+	public void saisie() {
+	}
+
+	public static void main(String[] args) {
+
+		boolean autoMessage = true;
+		Exec exec = new Exec();
+		Message msg = new Message("Mon 1er message", new Date());
+		MessageService ms = new MessageService(msg);
+		ms.saveMessage();
+		ms.printMessages();
+	}
+
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;myPack.Main.affichage()&apos; to &apos;affichageFromFile&apos;&#x0D;&#x0A;- Original project: &apos;tp5fileReverse&apos;&#x0D;&#x0A;- Original element: &apos;myPack.Main.affichage()&apos;&#x0D;&#x0A;- Renamed element: &apos;myPack.Main.affichageFromFile()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;affichage&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;myPack{Main.java[Main~affichage" name="affichageFromFile" references="true" stamp="1487063635761" version="1.0"/>
+</session>

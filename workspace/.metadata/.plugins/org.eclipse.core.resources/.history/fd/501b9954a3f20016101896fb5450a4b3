@@ -1,0 +1,23 @@
+package metier;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import entite.Message;
+
+public class MessageService {
+	List<Message> liste = new ArrayList<Message>();
+
+	List<Message> getMessages() {
+		return this.liste;
+	}
+
+	public void addMessage(Message m) {
+		this.liste.add(m);
+	}
+	
+	public void saveMessage(){
+		MessageSave ms = new Me
+	}
+
+}

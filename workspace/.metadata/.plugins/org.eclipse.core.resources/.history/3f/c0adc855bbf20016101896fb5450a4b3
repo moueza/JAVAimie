@@ -1,0 +1,6 @@
+package e;
+
+public class Robot {
+String nom;
+EnumJoueur numJoueur;
+}
