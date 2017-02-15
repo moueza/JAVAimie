@@ -1,0 +1,11 @@
+package myPack;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class Ecrire {
+	ObjectOutputStream oos = null;
+final FileOutputStream fichier = new FileOutputStream("serialisation.ser");
+
+oos=new ObjectOutputStream(fichier);
+}

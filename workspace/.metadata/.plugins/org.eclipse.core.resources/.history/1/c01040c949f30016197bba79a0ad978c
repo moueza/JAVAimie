@@ -1,0 +1,13 @@
+package myPack;
+
+import java.io.Serializable;
+
+public class Message implements Serializable{
+private String content;
+public Message(String string) {
+		this.content= string;
+}
+	public static void main(String[] args) {
+		Message m = new Message("Coucou");
+	}
+}
