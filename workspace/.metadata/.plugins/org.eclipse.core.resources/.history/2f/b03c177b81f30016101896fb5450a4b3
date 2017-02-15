@@ -1,0 +1,10 @@
+package ad;
+
+import entites.Parking;
+import entites.Voiture;
+
+public class VoitureDAO {
+	Voiture getAllVoitures(){
+		
+	};
+}

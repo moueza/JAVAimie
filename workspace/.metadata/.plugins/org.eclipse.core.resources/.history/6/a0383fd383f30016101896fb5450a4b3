@@ -1,0 +1,17 @@
+package ad;
+
+import entites.Parking;
+import entites.Voiture;
+
+public class VoitureDAO extends Dao{
+	Voiture getAllVoitures(){
+		return null;
+		
+	}
+
+	@Override
+	public Dao getInstance() {
+		// TODO Auto-generated method stub
+		return null;
+	};
+}

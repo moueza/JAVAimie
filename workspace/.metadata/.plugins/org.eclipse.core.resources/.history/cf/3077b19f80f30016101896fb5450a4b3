@@ -1,0 +1,7 @@
+package ad;
+
+import entites.Parking;
+
+public class ParkingDAO {
+Parking getAllParking(){};
+}
