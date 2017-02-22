@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="myPack.Main"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="metier.IMAD"/>
+<fullyQualifiedTypeName name="metier.MessageService"/>
+<fullyQualifiedTypeName name="ad.MessageSave"/>
+<fullyQualifiedTypeName name="entite.Message"/>
+<fullyQualifiedTypeName name="entite.IPM"/>
+<fullyQualifiedTypeName name="ad.Dao"/>
+<fullyQualifiedTypeName name="ad.VoitureDAO"/>
+<fullyQualifiedTypeName name="entites.Parking"/>
+<fullyQualifiedTypeName name="ad.ParkingDAO"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="entites.Voiture"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.swing.text.TableView"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
 </qualifiedTypeNameHistroy>
